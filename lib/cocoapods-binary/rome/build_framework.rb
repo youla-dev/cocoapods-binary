@@ -187,8 +187,8 @@ module Pod
     end
     
     def self.remove_build_dir(sandbox_root)
-      path = build_dir(sandbox_root)
-      path.rmtree if path.exist?
+      # path = build_dir(sandbox_root)
+      # path.rmtree if path.exist?
     end
 
     private 
